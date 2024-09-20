@@ -25,6 +25,10 @@ public class classandobj{
         s1.name="mehak";
         s1.age=21;
         s1.study();
+        Student s2=new Student();
+        s2.name="ayesha";
+        s2.age=24;
+        s2.study();
 
     }
 }
