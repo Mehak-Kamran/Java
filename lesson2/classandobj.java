@@ -38,6 +38,7 @@ public class classandobj{
         s1.age=21;
         s1.study();
         Student s2=new Student("ayesha",22);
+        console.log("hello);
         s2.name="ayesha";
         s2.age=24;
         s2.study();
