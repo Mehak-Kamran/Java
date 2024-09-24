@@ -27,6 +27,16 @@ class Buffalo extends Cow{
         System.out.println(this.legs);
     }
 }
+// hieracy inheritance
+class Dog extends Animal{
+    String breed;
+    
+    void breed(){
+        System.out.println(this.breed);
+        System.out.println(this.legs);
+    }
+
+}
 
 
 
@@ -42,6 +52,11 @@ public class inheritance{
     b1.color="black";
     b1.legs=4;
     b1.info();
+    Dog d1=new Dog();
+    d1.breed="german shepard";
+    d1.legs=4;
+    d1.breed();
+
 
     }
 }
