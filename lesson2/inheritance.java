@@ -38,6 +38,9 @@ class Dog extends Animal{
 
 }
 
+//hybrid inhertance
+//the whole program is called hybrid inheritance inwhich parent class has two child class cow and dog
+//and cow class is further extended with buffalo class where as cow class is also show single inheritance
 
 
 public class inheritance{
