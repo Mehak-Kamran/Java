@@ -17,7 +17,16 @@ class Cow extends Animal{
     }
    
 }
-
+//multi level inheritance
+class Buffalo extends Cow{
+    String gender;
+    
+    public void info(){
+        System.out.println(this.color);
+        System.out.println(this.gender);
+        System.out.println(this.legs);
+    }
+}
 
 
 
@@ -28,7 +37,11 @@ public class inheritance{
     c1.type="big";
     c1.color="brown";
     c1.printing();
-    
+    Buffalo b1=new Buffalo();
+    b1.gender="male";
+    b1.color="black";
+    b1.legs=4;
+    b1.info();
 
     }
 }
