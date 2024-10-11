@@ -1,3 +1,4 @@
+//mini proj
 package random_no_generator;
 import java.util.Scanner;
 
